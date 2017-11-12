@@ -9,4 +9,11 @@ public class PhotoDetailsService {
 		PhotoDetailsBean photoDetailsBean = photoDetailsDAO.queryPhotoDetails(photoId);
 		return photoDetailsBean;
 	}
+	
+	public PhotoDetailsBean setPhotoDetails(String photoId) {
+		PhotoDetailsDAO photoDetailsDAO = new PhotoDetailsDAO();
+		PhotoDetailsBean photoDetailsBean = photoDetailsDAO.queryPhotoDetails(photoId);
+		return photoDetailsBean;
+	}
+	
 }
