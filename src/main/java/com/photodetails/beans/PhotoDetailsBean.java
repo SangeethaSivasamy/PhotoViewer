@@ -4,6 +4,7 @@ import java.sql.Timestamp;
 
 public class PhotoDetailsBean {
 	private String photo_id;
+	private String photo_id2;
 	private String album_name;
 	private Timestamp created_date;
 	private String place;
